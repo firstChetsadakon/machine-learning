@@ -83,18 +83,26 @@ We will train different models to **predict credit risk (`Status`)**:
 ## **🔹 How to Run the ETL + ML Pipeline?**
 
 ### **Prerequisites**
-Ensure you have **Python 3.8+** and install the required dependencies:
+### **1️⃣ Install Jupyter and Required Dependencies**
+Ensure you have **Python 3.8+** and install the required packages:
 ```bash
-pip install pandas numpy scikit-learn xgboost
+pip install jupyter pandas numpy scikit-learn xgboost
 ````
-## **🔹 How to Run the ETL Pipeline?**
 
-### **Prerequisites**
-Ensure you have **Python 3.8+** and install the required dependencies:
+### **2️⃣ Open Jupyter Notebook**
+Launch Jupyter Notebook:
 ```bash
-pip install pandas numpy
-```
-## **🔹 Run the Script**
-```bash
-python etl_credit_data.py
-```
+jupyter notebook
+````
+- Navigate to the etl_credit_data.ipynb file.
+- Open the notebook and run all cells.
+
+### 📌 Next Steps
+-	🛠 Enhancements: Convert Application_Data.csv to a database (e.g., SQLite, PostgreSQL).
+-	📊 Analysis: Use ML models to predict loan default risk.
+-	🚀 Automation: Deploy the model into a real-world credit scoring system.
+
+
+### 🔗 References
+
+This ETL process is adapted from a Pentaho implementation (https://github.com/caesarmario/etl-credit-card-dataset-using-pentaho).
